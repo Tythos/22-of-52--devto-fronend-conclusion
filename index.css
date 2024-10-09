@@ -5,3 +5,20 @@ body {
     margin: 0;
     padding: 0;
 }
+
+header, section, article, footer {
+    display: none;
+}
+
+.Dialog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(50, 50, 50, 0.5);
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #777;
+    border-radius: 1rem;
+    color: #eee;
+    font-family: sans-serif;
+}
